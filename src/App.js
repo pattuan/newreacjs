@@ -11,25 +11,26 @@ import Register from "./page/register";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App">
-      <h1>Hello</h1>
-      <h2>How are you!</h2>
-        </div>
-      <BrowserRouter basename="/newreacjs">
-        <Routes>
-            <Route exact path="/Layout" element={<Layout />}/>
-                
-            
-            <Route path="/home" element={<Home />} />
-            <Route path="/order" element={<Order />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-
-          </Routes>
-        </BrowserRouter>
+    // <div className="App">
+    //   <div className="App">
+    //   <h1>Hello</h1>
+    //   <h2>How are you!</h2>
+    //     </div>
+      
         
-    </div>
+    // </div>,
+    <BrowserRouter basename="/newreacjs">
+    <Routes>
+        {/* <Route exact path="/Layout" element={<Layout />}/> */}
+            
+        
+        <Route path="/home" element={<Home />} />
+        {/* <Route path="/order" element={<Order />} /> */}
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Route path="/register" element={<Register />} /> */}
+
+      </Routes>
+    </BrowserRouter>
     
   );
 }
