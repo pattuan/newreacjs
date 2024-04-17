@@ -7,22 +7,20 @@ import Home from "./page/home";
 import Order from "./page/order";
 import Login from "./page/login";
 import Register from "./page/register";
+import React,{lazy, Suspense} from 'react';
 
+// const Home  = lazy(()=> import ('./page/home/index'))
 
 function App() {
   return (
+    
     <div className="App">
-      <div className="App">
-      <h1>Hello</h1>
-      <h2>How are you!</h2>
-        </div>
-      
       <BrowserRouter basename="/newreacjs">
         <Routes>
         {/* <Route exact path="/Layout" element={<Layout />}/> */}
             
         
-        <Route path="/home" element={<Home />} />
+        <Route exac path="/newreacjs" element={<Home />} />
         <Route path="/order" element={<Order />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

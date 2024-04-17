@@ -1,8 +1,8 @@
 {
   "homepage": "https://pattuan.github.io/newreacjs",
-  "name": "app",
+  "name": "newreacjs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@testing-library/jest-dom": "^5.17.0",
