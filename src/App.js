@@ -12,7 +12,10 @@ import Register from "./page/register";
 function App() {
   return (
     <div className="App">
-      
+      <div className="App">
+      <h1>Hello</h1>
+      <h2>How are you!</h2>
+        </div>
       <BrowserRouter basename="/newreacjs">
         <Routes>
             <Route exact path="/Layout" element={<Layout />}/>
