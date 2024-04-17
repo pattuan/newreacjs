@@ -17,10 +17,8 @@ function App() {
       <h2>How are you!</h2>
         </div>
       
-        
-     </div>,
-    <BrowserRouter basename="/newreacjs">
-    <Routes>
+      <BrowserRouter basename="/newreacjs">
+        <Routes>
         {/* <Route exact path="/Layout" element={<Layout />}/> */}
             
         
@@ -29,8 +27,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
-      </Routes>
-    </BrowserRouter>
+          </Routes>
+        </BrowserRouter>
+     </div>
+    
     
   );
 }
