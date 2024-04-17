@@ -20,7 +20,7 @@ function App() {
         {/* <Route exact path="/Layout" element={<Layout />}/> */}
             
         
-        <Route exac path="/newreacjs" element={<Home />} />
+        <Route exact path="/newreacjs" element={<Home />} />
         <Route path="/order" element={<Order />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
