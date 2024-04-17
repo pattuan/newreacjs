@@ -18,7 +18,7 @@ function App() {
         </div>
       
         
-    // </div>,
+     </div>,
     <BrowserRouter basename="/newreacjs">
     <Routes>
         {/* <Route exact path="/Layout" element={<Layout />}/> */}
